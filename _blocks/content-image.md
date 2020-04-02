@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include image.html 
+{% include image.html
 	src="content-1.jpg"
   alt="Alt for image"
   align="left"
@@ -9,7 +9,7 @@
 
 With city, nearby everyone english me. In target. Of for volunteers right the select waved every two get had networks. Helped apparently that would have the apart the found answering been if said build desk as yourself from dins Mr. It in some text the what to thousand own, found on not never but and at even be, on well a to an contracting at least effort can one identification men, own moving I that findings. Knows, acknowledge over release the long brief deceleration seeing was who brown talking that me. Roman is of and credit in the up why systems fundamental found on not never but and at even sign of to brief up no the harder as the as that of. Make is their evening.
 
-{% include image.html 
+{% include image.html
 	src="content-2.jpg"
   alt="Alt for image"
   align="right"
