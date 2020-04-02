@@ -24,11 +24,11 @@ header:
 
 {% if site.template == 'base' %}
 
-  {% include cards.html 
-    block="feature" 
-    section_background="default" 
+  {% include cards.html
+    block="feature"
+    section_background="default"
     section_size="large"
-    section_title="The first multipurpose Jekyll theme" 
+    section_title="Suunnitellaan yhdessä seuraava tuotantosi."
     section_header_align="center"
     section_content_align="center"
     media="top"
@@ -37,9 +37,9 @@ header:
     icon_color="#1B33BF"
   %}
 
-  {% include cards.html 
-    block="home-why" 
-    section_title="Why use Eon theme?"
+  {% include cards.html
+    block="home-why"
+    section_title="Palvelut"
     section_header_align="center"
     section_size="large"
     section_background="muted"
@@ -47,7 +47,7 @@ header:
     gutter="large"
   %}
 
-  {% include cta.html 
+  {% include cta.html
     section_size="large"
     section_image="header-9.jpeg"
     section_overlay="rgba(0, 0, 0, 0.5)"
@@ -57,7 +57,7 @@ header:
     layout="1"
     block="cta-4"
   %}
-  
+
 {% else %}
 
 
