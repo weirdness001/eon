@@ -44,9 +44,9 @@ author:
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
   john:
-    name:               John Brown
-    title:              Support
-    avatar:             avatar-john.png
+    name:               Ville Heikkilä
+    title:               Visual designer/Graphic production
+    avatar:             avatar-ville.png
   evan:
     name:               Evan Wells
     title:              Support
@@ -78,7 +78,7 @@ navbar:
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
   layout:               columns # center or columns
-  copyright:            Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+  copyright:            WhiteWater Oy 2020
 
 mailchimp:
   form_action:          000000
@@ -107,14 +107,14 @@ social_share:
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
+  email:                ville@whitewater.fi
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/whitewateroy
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
+  instagram:            https://www.instagram.com/whitewateroy
   linkedin:
   pinterest:
   twitter:

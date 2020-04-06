@@ -53,7 +53,7 @@ center:
 #  - title: Docs
     url: /theme-docs/
 
- # right:
-  - title: Purchase
+  right:
+  # - title: Purchase
     url: https://themeforest.net/user/pressapps/portfolio
     button: default
