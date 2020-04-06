@@ -27,7 +27,7 @@ header:
 {% include cta.html
   section_size="large"
   section_image="header-9.jpeg"
-  section_overlay="rgba(0, 0, 0, 0.5)"
+  section_overlay="rgba(51, 204, 255, 0.8)"
   section_container="small"
   section_content_align="center"
   section_content_color="light"
