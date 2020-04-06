@@ -2,4 +2,6 @@
 title: Customer support
 ---
 
-Should you have questions, we are here to help. Each purchase includes six months of support. 
+<iframe src="https://player.vimeo.com/video/259411563?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen" allowfullscreen data-uk-responsive></iframe>
+
+Tässä meillä nyt videota!!
