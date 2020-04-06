@@ -24,8 +24,8 @@ header:
 
 {% if site.template == 'base' %}
 
-{% include block.html
-  block="videos"
+{% include cards.html
+  block="videos_ville"
   grid="1-3"
   block_title="false"
   section_size="large"
@@ -42,10 +42,6 @@ header:
   caption="true"
   lightbox="true"
 %}
-
-
-
-
 
 {% include videos.html
   block="video-home5"
