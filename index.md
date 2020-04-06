@@ -26,7 +26,7 @@ header:
 
 {% include block.html
   block="videos"
-  grid="1-3" 
+  grid="1-3"
   block_title="false"
   section_size="large"
   section_title="Responsive videos"
