@@ -24,6 +24,13 @@ header:
 
 {% if site.template == 'base' %}
 
+
+
+
+
+
+
+
   {% include cards.html
     block="feature"
     section_background="default"
