@@ -52,7 +52,7 @@ header:
 
   {% include cards.html
     block="home-why"
-    section_title="Palvelut"
+    section_title="Palvelut update"
     section_header_align="center"
     section_size="large"
     section_background="muted"
