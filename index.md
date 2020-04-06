@@ -31,7 +31,7 @@ header:
 
 
 
-  {% include header-video.md
+  {% include header-video/index.html
     block="videos"
     section_background="default"
     section_size="large"
