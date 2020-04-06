@@ -31,7 +31,7 @@ header:
 
 
 
-  {% include cards.html
+  {% include videos.html
     block="videos"
     section_background="default"
     section_size="large"
