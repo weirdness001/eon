@@ -35,6 +35,17 @@ header:
   block="cta-4"
 %}
 
+{% include cta.html
+  section_size="large"
+  section_image="section-2.jpeg"
+  section_overlay="rgba(13, 57, 181, 0.8)"
+  section_container="small"
+  section_content_align="center"
+  section_content_color="light"
+  layout="1"
+  block="cta-6"
+%}
+
 
 
   {% include cards.html
