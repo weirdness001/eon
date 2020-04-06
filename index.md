@@ -24,35 +24,10 @@ header:
 
 {% if site.template == 'base' %}
 
-{% include cards.html
-  block="videos_ville1"
-  grid="1-2"
-  block_title="false"
-  section_size="large"
-  section_title="Responsive videos"
-  section_container="xsmall"
-  section_header_align="center"
-%}
-
-
-{% include gallery.html
-  gallery="gallery-1"
-  grid="1-4"
-  gutter="large"
-  caption="true"
-  lightbox="true"
-%}
-
-{% include videos.html
-  block="video-home5"
-  grid="1-3"
-  gutter="large"
-  card_style="default"
-%}
 
   {% include cards.html
     block="home-why"
-    section_title="Palvelut update"
+    section_title="Töitämme"
     section_header_align="center"
     section_size="large"
     section_background="muted"
