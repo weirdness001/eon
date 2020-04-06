@@ -44,10 +44,10 @@ center:
   - title: Portfolio
     url: /portfolio/
 
-  - title: Blog
+  - title: Artikkelit
     url: /blog/
 
-  - title: 404
+  # - title: 404
     url: /404/
 
 #  - title: Docs
