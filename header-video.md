@@ -12,10 +12,7 @@ header:
     block: block-video
   content-2:
     block: block-video-2
-  content:
-      block: block-video
-  content-2:
-      block: block-video-2
-      
+
+
     title: false
 ---
