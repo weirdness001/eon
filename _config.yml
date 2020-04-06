@@ -76,7 +76,7 @@ navbar:
   search:               false
 
 footer:                 # Default footer image settings
-  style:                secondary # default, muted, primary, secondary
+  style:                muted # default, muted, primary, secondary
   layout:               columns # center or columns
   copyright:            WhiteWater Oy 2020
 
