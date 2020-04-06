@@ -1,12 +1,12 @@
 # Navbar menu navigation links
-- title: Home
+- title: Koti
   url: /
 
-- title: Faq
-  url: /faq/
+- title: Portfolio
+  url: /Portfolio/
 
-- title: Contact
-  url: /contact/
-
-- title: Blog
+- title: Blogi
   url: /blog/
+
+- title: Ota Yhteyttä
+  url: /contact/

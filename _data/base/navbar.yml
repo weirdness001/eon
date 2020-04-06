@@ -2,7 +2,7 @@
 left:
 
 center:
-  - title: Ylös
+  - title: Koti
     url: /
 
 #  - title: Headers
@@ -44,7 +44,7 @@ center:
   - title: Portfolio
     url: /portfolio/
 
-  - title: Artikkelit
+  - title: Blogi
     url: /blog/
 
   # - title: 404
