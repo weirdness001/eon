@@ -25,7 +25,13 @@ header:
 {% if site.template == 'base' %}
 
 
-
+{% include gallery.html
+  gallery="gallery-1"
+  grid="1-4"
+  gutter="large"
+  caption="true"
+  lightbox="true"
+%}
 
 
 
