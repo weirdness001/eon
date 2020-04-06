@@ -6,7 +6,7 @@ center:
     url: /
 
 #  - title: Headers
-    dropdown:
+  #  dropdown:
       - title: Search
         url: /header-search/
       - title: Video
@@ -17,7 +17,7 @@ center:
         url: /header-cta/
 
 #  - title: Features
-    dropdown:
+#    dropdown:
       - title: Components
       - title: Cards
         url: /cards/
@@ -48,12 +48,12 @@ center:
     url: /blog/
 
   # - title: 404
-    url: /404/
+#    url: /404/
 
 #  - title: Docs
-    url: /theme-docs/
+  #  url: /theme-docs/
 
-  right:
+#  right:
   # - title: Purchase
-    url: https://themeforest.net/user/pressapps/portfolio
-    button: default
+#    url: https://themeforest.net/user/pressapps/portfolio
+#    button: default
