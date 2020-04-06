@@ -24,6 +24,13 @@ header:
 
 {% if site.template == 'base' %}
 
+{% include cards.html
+  block="card-media-11"
+  media="right"
+  section_size="large"
+  section_padding_remove="top"
+  section_background="default"
+%}
 
   {% include cards.html
     block="home-why"
