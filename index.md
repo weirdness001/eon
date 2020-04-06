@@ -25,7 +25,7 @@ header:
 {% if site.template == 'base' %}
 
 {% include cards.html
-  block="card-media-12" 
+  block="header-video"
   media="left"
   section_size="large"
   section_background="default"
