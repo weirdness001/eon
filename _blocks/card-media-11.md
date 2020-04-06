@@ -1,6 +1,18 @@
 ---
-title: WhiteWater Oy
-video: <iframe src="https://player.vimeo.com/video/259411563?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen" allowfullscreen data-uk-responsive></iframe>
----
+width: full
+navbar:
+  sticky: false
+  transparent: true
+header:
+  layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  background_color: "rgba(184, 154, 255, 0.5)"
+  header_size: large
+  heading_size: large
+  content:
+    block: block-video
+  content-2:
+    block: block-video-2
 
-Whitewater Oy on vuonna 2005 perustettu animaatio-alan yritys Turusta. Historiamme aikana olemme nähneet alan kehityksen. Toteutamme teknisiä animaatioita, sosiaalisen median mainoksia, TV-mainoksia, kaikkea missä tarvitsetkin animaation keinoa saada viestisi kuuluviin. Tärkeintä toiminnassamme on aina ollut koko ajan uudistua ja innostua uusista tekniikoista. Mitä seuraavaksi tehtäisiin yhdessä? Ota yhteyttä: ville(at)whitewater.fi
+
+    title: false
+---
