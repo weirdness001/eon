@@ -31,18 +31,12 @@ header:
 
 
 
-  {% include header-video/index.html
-    block="videos"
-    section_background="default"
-    section_size="large"
-    section_title="Suunnitellaan yhdessä seuraava tuotantosi."
-    section_header_align="center"
-    section_content_align="center"
-    media="top"
-    grid="1-4"
-    gutter="large"
-    icon_color="#1B33BF"
-  %}
+{% include videos.html
+  block="video-home5"
+  grid="1-3"
+  gutter="large"
+  card_style="default"
+%}
 
   {% include cards.html
     block="home-why"
