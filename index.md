@@ -24,13 +24,18 @@ header:
 
 {% if site.template == 'base' %}
 
-{% include cards.html
-  block="card-media-11"
-  media="right"
+{% include cta.html
   section_size="large"
-  section_padding_remove="top"
-  section_background="default"
+  section_image="header-9.jpeg"
+  section_overlay="rgba(0, 0, 0, 0.5)"
+  section_container="small"
+  section_content_align="center"
+  section_content_color="light"
+  layout="1"
+  block="cta-4"
 %}
+
+
 
   {% include cards.html
     block="home-why"
@@ -42,16 +47,7 @@ header:
     gutter="large"
   %}
 
-  {% include cta.html
-    section_size="large"
-    section_image="header-9.jpeg"
-    section_overlay="rgba(0, 0, 0, 0.5)"
-    section_container="small"
-    section_content_align="center"
-    section_content_color="light"
-    layout="1"
-    block="cta-4"
-  %}
+
 
 {% else %}
 
