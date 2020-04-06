@@ -2,13 +2,13 @@
 left:
 
 center:
-  - title: Kotiin
+  - title: Home
     url: /
 
   - title: Headers
     dropdown:
       - title: Search
-       url: /header-search/
+        url: /header-search/
       - title: Video
         url: /header-video/
       - title: Signup
@@ -26,7 +26,7 @@ center:
       - title: Call To Action
         url: /cta/
       - title: Team
-       url: /team/
+        url: /team/
       - title: FAQ
         url: /faq/
       - title: Contact Form
@@ -44,16 +44,16 @@ center:
   - title: Portfolio
     url: /portfolio/
 
-  - title: Blogi
+  - title: Blog
     url: /blog/
 
-   - title: 404
+  - title: 404
     url: /404/
 
   - title: Docs
     url: /theme-docs/
 
-  right:
-   - title: Purchase
+right:
+  - title: Purchase
     url: https://themeforest.net/user/pressapps/portfolio
     button: default
