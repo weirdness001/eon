@@ -47,13 +47,13 @@ center:
   - title: Blogi
     url: /blog/
 
-  # - title: 404
-#    url: /404/
+   - title: 404
+    url: /404/
 
   - title: Docs
     url: /theme-docs/
 
-#  right:
-  # - title: Purchase
-#    url: https://themeforest.net/user/pressapps/portfolio
-#    button: default
+  right:
+   - title: Purchase
+    url: https://themeforest.net/user/pressapps/portfolio
+    button: default
