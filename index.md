@@ -24,14 +24,14 @@ header:
 
 {% if site.template == 'base' %}
 
-{% include
-  block="header-video"
-    media="left"
+{% include block.html
+  block="videos"
+  grid="1-3" 
+  block_title="false"
   section_size="large"
-  section_background="default"
-  section_title="Töitämme"
+  section_title="Responsive videos"
+  section_container="xsmall"
   section_header_align="center"
-  card_style="default"
 %}
 
 
