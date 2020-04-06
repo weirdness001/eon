@@ -1,6 +1,6 @@
 ---
-title: Why switch to Jekyll
+title: Projekti 1
 video: https://youtu.be/fqFjuX4VZmU
 ---
 
-Dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id.
+Tämä on projekti nuomero  1
