@@ -22,19 +22,19 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 Pete Seth
-  avatar:               avatar-tom.png
-  title:                Support
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  name:                 Ville Heikkilä
+  avatar:               avatar-ville.png
+  title:                Visual designer/Graphic production
+  bio:                  Olen visuaalinen suunnittelija ja liikkuvan kuvan ammattilainen. Erityisosaamistani ovat 3D-grafiikka ja animaatio sekä moninaisten visuaalisten toteutusten hallinta.
   url:
-  email:                info@blacompany.com
+  email:                ville@whitewater.fi
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/WhitewaterOy/
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
+  instagram:            https://www.instagram.com/WhitewaterOy
   linkedin:
   pinterest:
   twitter:
