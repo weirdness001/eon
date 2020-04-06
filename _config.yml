@@ -5,13 +5,13 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Eon
-description:            Multipurpose Jekyll theme.
+title:                  WhiteWater Oy animaatiostudio
+description:            Visuaalista sisällöntuotantoa animaation keinoin.
 url:                    "" # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
-lang:                   en
-logo:                   logo-dark.svg
-logo_light:             logo-light.svg
+lang:                   fin
+logo:                   whitewater_logo.png
+logo_light:             whitewater_logo_light.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
@@ -24,7 +24,7 @@ paginate_path:          "/blog/:num/" # Blog path
 author:
   name:                 Pete Seth
   avatar:               avatar-tom.png
-  title:                Support     
+  title:                Support
   bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
   url:
   email:                info@blacompany.com
@@ -45,26 +45,26 @@ author:
 authors:
   john:
     name:               John Brown
-    title:              Support     
+    title:              Support
     avatar:             avatar-john.png
   evan:
     name:               Evan Wells
-    title:              Support    
+    title:              Support
     avatar:             avatar-evan.png
   sara:
     name:               Sara Galen
-    title:              Lead Developer     
+    title:              Lead Developer
     avatar:             avatar-sara.png
   alex:
-    title:              Design Engineer     
+    title:              Design Engineer
     name:               Alex Koch
     avatar:             avatar-alex.png
   daniel:
-    title:              Developer      
+    title:              Developer
     name:               Daniel Shultz
     avatar:             avatar-daniel.png
   tom:
-    title:              Developer     
+    title:              Developer
     name:               Tom Farrell
     avatar:             avatar-tom.png
 
@@ -83,14 +83,14 @@ footer:                 # Default footer image settings
 mailchimp:
   form_action:          000000
   hidden_name:          000000
-  
+
 google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
 google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
   shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken:  
+instagram_accesstoken:
 
 donations:
   paypal:
@@ -135,7 +135,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-exclude: 
+exclude:
   - vendor
   - .bundle
   - .sass-cache
@@ -175,7 +175,7 @@ defaults:
     values:
       layout:               post
       section:              large
-      sidebar: 
+      sidebar:
         right:              blog
       comments:             # true
       share:                true
