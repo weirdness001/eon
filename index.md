@@ -24,9 +24,9 @@ header:
 
 {% if site.template == 'base' %}
 
-{% include cards.html
+{% include
   block="header-video"
-  media="left"
+    media="left"
   section_size="large"
   section_background="default"
   section_title="Töitämme"
