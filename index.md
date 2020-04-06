@@ -32,7 +32,7 @@ header:
 
 
   {% include cards.html
-    block="feature"
+    block="videos"
     section_background="default"
     section_size="large"
     section_title="Suunnitellaan yhdessä seuraava tuotantosi."
