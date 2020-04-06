@@ -24,6 +24,16 @@ header:
 
 {% if site.template == 'base' %}
 
+{% include cards.html
+  block="card-media-12" 
+  media="left"
+  section_size="large"
+  section_background="default"
+  section_title="Töitämme"
+  section_header_align="center"
+  card_style="default"
+%}
+
 
 {% include gallery.html
   gallery="gallery-1"

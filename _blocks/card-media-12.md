@@ -1,8 +1,6 @@
 ---
 title: Are of brief house annoyed
-image: card-2.jpeg
+video: https://www.youtube.com/watch?v=UVylsfMhrYs
 ---
 
-Suspendisse quis turpis quis, semper consequat vehicula dolor consequat quam, ac consequat posuere leo dapibus.
-
-{% include button.html text="Join Us" url="#" style="default" %}
+Turun seudun puhdistamon poistoputken kapasiteetin tehostaminen
