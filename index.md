@@ -27,7 +27,7 @@ header:
 {% include cta.html
   section_size="large"
   layout="2"
-  block="cta-7"
+  block="cta-8"
 %}
 
 
