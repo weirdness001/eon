@@ -25,8 +25,8 @@ header:
 {% if site.template == 'base' %}
 
 {% include cards.html
-  block="videos_ville"
-  grid="1-3"
+  block="videos_ville1"
+  grid="1-2"
   block_title="false"
   section_size="large"
   section_title="Responsive videos"
