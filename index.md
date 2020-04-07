@@ -26,7 +26,16 @@ Whitewater Oy on vuonna 2005 perustettu animaatio-alan yritys Turusta. Historiam
 
 {% if site.template == 'base' %}
 
-
+{% include cards.html
+  block="card-media"
+  media="top"
+  section_size="large"
+  section_padding_remove="top"
+  section_container="expand"
+  section_background="default"
+  card_style="default"
+  section_content_align="center"
+%}
 
 
 {% include cta.html
