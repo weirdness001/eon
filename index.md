@@ -62,15 +62,6 @@ header:
     gutter="large"
   %}
 
-  {% include cta.html
-    section_size="large"
-    section_image="section-2.jpeg"
-    section_overlay="rgba(13, 57, 181, 0.8)"
-    section_content_color="light"
-    layout="3"
-    block="cta-6"
-  %}
-
 
 {% else %}
 
