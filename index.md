@@ -58,7 +58,7 @@ header:
     section_header_align="center"
     section_size="large"
     section_background="muted"
-    grid="1-3"
+    grid="1-2"
     gutter="large"
   %}
 
