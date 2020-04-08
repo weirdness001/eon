@@ -1,6 +1,6 @@
 ---
 title: Tekniset toteutukset
-image: card-1.jpeg
+image: poistoputki-1.jpeg
 ---
 
 Havainnollistavat videot,selitysvideot, prosessivideot
