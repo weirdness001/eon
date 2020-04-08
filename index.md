@@ -54,7 +54,7 @@ header:
 
   {% include cards.html
     block="home-why"
-    section_title="Töitämme22234"
+    section_title="Töitämme"
     section_header_align="center"
     section_size="large"
       grid="1-2"
