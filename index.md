@@ -57,7 +57,7 @@ header:
     section_title="Töitämme22234"
     section_header_align="center"
     section_size="large"
-    section_background="primary"
+    section_background="188,223,255"
     grid="1-2"
     gutter="large"
   %}
