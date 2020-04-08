@@ -1,8 +1,8 @@
 ---
-title: Havainnollistavat videot/selitysvideot/Prosessivideot
-image: card-2.jpeg
+title: Tekniset toteutukset
+image: card-1.jpeg
 ---
 
-Dignissim quis turpis quis, semper consequat vehicula dolor. Suspendisse tincidunt consequat quam, ac consequat.
+Havainnollistavat videot,selitysvideot, prosessivideot
 
 {% include button.html text="Join Us" url="#" style="default" %}

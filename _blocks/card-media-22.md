@@ -1,8 +1,8 @@
 ---
-title: Carefully was instrument
+title: Messuosastot
 image: card-4.jpeg
 ---
 
-Suspendisse quis turpis quis, semper consequat vehicula dolor consequat quam, ac consequat posuere leo dapibus.
+Messuosastojen näyttötaulujen sekä sceenien moninaiset toteutukset.
 
 {% include button.html text="Join Us" url="#" style="default" %}
