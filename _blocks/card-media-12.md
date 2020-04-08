@@ -1,5 +1,5 @@
 ---
 title: Mainostuotanto
-image: juissi.jpeg
+image: card-2.jpeg
 ---
 Näyttötaulu-mainokset, TV-mainokset, Somemarkkinointi
