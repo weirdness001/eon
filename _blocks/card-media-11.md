@@ -1,6 +1,6 @@
 ---
-title: Mail variety is to in necessary
-image: card-1.jpeg
+title: Havainnollistavat videot/selitysvideot/Prosessivideot
+image: poistoputki.jpeg
 ---
 
 Dignissim quis turpis quis, semper consequat vehicula dolor. Suspendisse tincidunt consequat quam, ac consequat.

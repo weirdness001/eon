@@ -34,7 +34,7 @@ header:
 
 {% include cards.html
   block="card-media"
-  section_title="Palve"
+  section_title="Palvelut"
   media="top"
   section_size="large"
   section_padding_remove="top"
