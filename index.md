@@ -30,6 +30,7 @@ header:
   section_size="large"
   layout="2"
   block="cta-2"
+  section_content_align="center"
 %}
 
 {% include cards.html

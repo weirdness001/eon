@@ -1,5 +1,5 @@
 ---
 title: Mainostuotanto
-video: 
+image: card-2.jpeg
 ---
-Somemarkkinointi ja näyttötaulu-mainokset
+Näyttötaulu-mainokset, TV-mainokset, Somemarkkinointi

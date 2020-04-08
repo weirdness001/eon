@@ -1,5 +1,5 @@
 ---
 title: Miten voimme auttaa?
-subtitle: Autamme asiakkaitamme saamaan viestinsä eteenpäin. Yhteistyömme voi olla esimerkiksi tuotteen lanseeraus videon muodossa. Koneen tekninen video, jossa esitellään toimivuutta ja ratkaisua onglelmaan.
+subtitle: Autamme asiakkaitamme saamaan viestinsä eteenpäin Liikkuvan kuvan ja kuvitusten keinoin. Tuotamme pieniä ja suuria kokonaisuuksia. Yhteistyömme voi olla esimerkiksi tuotteen lanseeraus tai esittely, prosessin kuvaus tai erilaiset esitysten (powerpoint, prezi) sisään rakennettavat elementit kuvituksena, joiden avulla yleisösi ymmärtävät viestisi.
 
 ---

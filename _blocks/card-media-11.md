@@ -1,6 +1,6 @@
 ---
 title: Havainnollistavat videot/selitysvideot/Prosessivideot
-image: poistoputki-1.jpeg
+image: card-2.jpeg
 ---
 
 Dignissim quis turpis quis, semper consequat vehicula dolor. Suspendisse tincidunt consequat quam, ac consequat.
