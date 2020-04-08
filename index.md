@@ -35,6 +35,7 @@ header:
 {% include cards.html
   block="card-media"
   section_title="Palvelut"
+  section_header_align="center"
   media="top"
   section_size="large"
   section_padding_remove="top"
@@ -42,16 +43,6 @@ header:
   section_background="default"
   card_style="default"
   section_content_align="center"
-%}
-
-
-{% include cta.html
-  section_size="large"
-  section_image="section-2.jpeg"
-  section_overlay="rgba(13, 57, 181, 0.8)"
-  section_content_color="light"
-  layout="3"
-  block="cta-6"
 %}
 
 
@@ -66,6 +57,14 @@ header:
     gutter="large"
   %}
 
+  {% include cta.html
+    section_size="large"
+    section_image="section-2.jpeg"
+    section_overlay="rgba(13, 57, 181, 0.8)"
+    section_content_color="light"
+    layout="3"
+    block="cta-6"
+  %}
 
 
 {% else %}
