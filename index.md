@@ -54,10 +54,10 @@ header:
 
   {% include cards.html
     block="home-why"
-    section_title="Töitämme222"
+    section_title="Töitämme22234"
     section_header_align="center"
     section_size="large"
-    section_background="(0,132, 255)"
+    section_background="primary"
     grid="1-2"
     gutter="large"
   %}
