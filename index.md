@@ -42,7 +42,9 @@ header:
   gutter="large"
   count="3"
   view_all="/blog/"
-  section_header="Uutiset"
+    section_title="Section title"
+  section_subtitle="Uutiset" 
+  section_header_align="center"
 %}
 
 
@@ -57,7 +59,10 @@ header:
   gutter="large"
   card_style="default"
   section_background="default"
-  section_header="Muutamia töitämme"
+  section_padding_remove="top"
+  section_title="Section title"
+  section_subtitle="Muutamia töitämme"
+  section_header_align="center"
 %}
 
 {% include map.html
