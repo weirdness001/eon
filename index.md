@@ -28,7 +28,7 @@ header:
 
 {% include cta.html
   section_size="large"
-  layout="1"
+  layout="3"
   block="cta-2"
   section_content_align="left"
   section_image="section-2.jpeg"
@@ -44,6 +44,7 @@ header:
   section_size="large"
     grid="1-2"
   gutter="large"
+  card_style="default"
 %}
 
 
