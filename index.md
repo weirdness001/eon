@@ -56,6 +56,7 @@ header:
   gutter="large"
   card_style="default"
   section_background="default"
+  section_header="Muutamia töitämme"
 %}
 
 {% include map.html
