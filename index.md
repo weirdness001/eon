@@ -41,8 +41,6 @@ header:
 
 {% include cards.html
   block="home-why"
-
-  section_header_align="center"
   section_size="large"
     grid="1-2"
   gutter="large"
