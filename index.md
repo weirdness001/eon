@@ -37,9 +37,6 @@ header:
 
 %}
 
-Muutamia töitämme
-{: .uk-text-lead}
-
 
 
 {% include cards.html
