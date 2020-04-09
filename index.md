@@ -58,7 +58,12 @@ header:
   section_background="default"
 %}
 
-
+{% include map.html
+  latitude="19.419897"
+  longitude="-99.164967"
+  zoom="12"
+  style="silver"
+%}
 
 
 {% else %}
