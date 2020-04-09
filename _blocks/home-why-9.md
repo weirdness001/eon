@@ -2,4 +2,4 @@
 title: Customer support
 ---
 
-Should you have questions, we are here to help. Each purchase includes six months of support. 
+<iframe src="https://www.youtube.com/embed/y11F47ncPl0?controls=0" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen" allowfullscreen data-uk-responsive></iframe>
