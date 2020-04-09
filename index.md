@@ -40,7 +40,7 @@ header:
 {% include blog.html
   grid="1-3"
   gutter="large"
-  count="3"
+  count="1"
   view_all="/blog/"
 %}
 
