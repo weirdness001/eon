@@ -42,8 +42,8 @@ header:
   gutter="large"
   count="3"
   view_all="/blog/"
-    section_title="Section title"
-  section_subtitle="Uutiset" 
+    section_title="Uutiset"
+  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
   section_header_align="center"
 %}
 
@@ -60,8 +60,8 @@ header:
   card_style="default"
   section_background="default"
   section_padding_remove="top"
-  section_title="Section title"
-  section_subtitle="Muutamia töitämme"
+  section_title="Muutamia töitämme"
+
   section_header_align="center"
 %}
 
