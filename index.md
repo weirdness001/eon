@@ -39,7 +39,18 @@ header:
 
 {% include cards.html
   block="home-why"
-  
+  media="left" 
+  section_size="large"
+  section_background="default"
+  section_title="Cards with images"
+  section_header_align="center"
+  card_style="default"
+%}
+
+
+{% include cards.html
+  block="home-why"
+
   section_header_align="center"
   section_size="large"
     grid="1-2"
