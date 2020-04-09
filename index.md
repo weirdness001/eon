@@ -37,6 +37,14 @@ header:
 
 %}
 
+{% include blog.html
+  grid="1-3"
+  gutter="large"
+  count="3"
+  view_all="/blog/"
+%}
+
+
 
 
 {% include cards.html
