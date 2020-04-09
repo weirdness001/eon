@@ -30,7 +30,7 @@ header:
   section_size="large"
   layout="2"
   block="cta-2"
-  section_content_align="center"
+  section_content_align="left"
   section_image="section-2.jpeg"
   section_overlay="rgba(13, 57, 181, 0.8)"
   section_content_color="light"
