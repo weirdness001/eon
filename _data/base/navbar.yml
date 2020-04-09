@@ -47,14 +47,13 @@ center:
   - title: Blog
     url: /blog/
 
-  - title: 404
-    url: /404/
+  - title: Ota yhteyttä
+    url: /contact/
 
   - title: Docs
     url: /theme-docs/
 
-    - title: Ota yhteyttä
-      url: /contact/
+
 
 right:
   - title: Purchase
