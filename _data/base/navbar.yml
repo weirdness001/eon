@@ -5,9 +5,6 @@ center:
   - title: Etusivu
     url: /
 
-    - title: Meistä
-      url: /header-cta/
-
   - title: Headers
     dropdown:
       - title: Search
