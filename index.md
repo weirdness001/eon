@@ -42,6 +42,7 @@ header:
   gutter="large"
   count="3"
   view_all="/blog/"
+  section_header="Uutiset"
 %}
 
 
