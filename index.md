@@ -38,10 +38,9 @@ header:
 %}
 
 {% include blog.html
-  layout="2"
   grid="1-3"
   gutter="large"
-  count="1"
+  count="3"
   view_all="/blog/"
 %}
 
