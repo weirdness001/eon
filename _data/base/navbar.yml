@@ -5,6 +5,9 @@ center:
   - title: Etusivu
     url: /
 
+    - title: Meistä
+      url: /cards_ville/
+
   - title: Headers
     dropdown:
       - title: Search
