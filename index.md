@@ -37,6 +37,9 @@ header:
 
 %}
 
+Muutamia töitämme
+{: .uk-text-lead}
+
 
 
 {% include cards.html
@@ -46,20 +49,6 @@ header:
   gutter="large"
 %}
 
-
-
-{% include cards.html
-  block="card-media"
-  section_title="Palvelut"
-  section_header_align="center"
-  media="top"
-  section_size="large"
-  section_padding_remove="top"
-  section_container="expand"
-  section_background="default"
-  card_style="default"
-  section_content_align="center"
-%}
 
 
 

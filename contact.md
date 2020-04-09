@@ -1,5 +1,5 @@
 ---
-title: Contact Us Forms
+title: Ota yhteyttä
 width: xsmall
 section: large
 navbar:
@@ -18,12 +18,5 @@ header:
   parallax: true
 ---
 
-Example contact forms using free third party service [Formspree](https://formspree.io/). There are two form layouts with optional name and subject fields.
-{: .uk-text-lead}
-
-## Stacked basic form
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="false" subject="false" %}
-
-## Horizontal layout with subject and name
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
-
+## Ota rohkeasti yhteyttä niin keskustellaan lisää
+{% include formspree.html email="ville@whitewater.fi" redirect="/thanks/" name="false" subject="false" %}
