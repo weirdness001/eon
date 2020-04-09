@@ -1,5 +1,5 @@
 ---
-title: Sanoma Get tomorrow Tilaisuuden avaus-video.
+title: Sanoma Get tomorrow tilaisuuden avaus-video.
 ---
 
 <iframe src="https://www.youtube.com/embed/J5gFujt9tXE?controls=0" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen" allowfullscreen data-uk-responsive></iframe>
