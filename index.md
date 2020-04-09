@@ -45,6 +45,7 @@ header:
     grid="1-2"
   gutter="large"
   card_style="default"
+  section_background="default"
 %}
 
 
