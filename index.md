@@ -38,6 +38,17 @@ header:
 %}
 
 {% include cards.html
+  block="home-why"
+  section_title="Töitämme"
+  section_header_align="center"
+  section_size="large"
+    grid="1-2"
+  gutter="large"
+%}
+
+
+
+{% include cards.html
   block="card-media"
   section_title="Palvelut"
   section_header_align="center"
@@ -50,16 +61,6 @@ header:
   section_content_align="center"
 %}
 
-
-
-  {% include cards.html
-    block="home-why"
-    section_title="Töitämme"
-    section_header_align="center"
-    section_size="large"
-      grid="1-2"
-    gutter="large"
-  %}
 
 
 {% else %}
