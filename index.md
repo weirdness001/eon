@@ -28,7 +28,7 @@ header:
 
 {% include cta.html
   section_size="large"
-  layout="2"
+  layout="1"
   block="cta-2"
   section_content_align="left"
   section_image="section-2.jpeg"
@@ -36,6 +36,17 @@ header:
   section_content_color="light"
 
 %}
+
+{% include blog.html
+  layout="2"
+  count="1"
+  view_all="/blog/"
+    section_title="Uutiset"
+  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
+  section_header_align="center"
+%}
+
+
 
 {% include blog.html
   grid="1-3"
