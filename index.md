@@ -38,7 +38,7 @@ header:
 %}
 
 {% include blog.html
-  layout="1"
+  layout="3"
   count="1"
   view_all="/blog/"
     section_title="Uutiset"
