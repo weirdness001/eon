@@ -4,7 +4,7 @@ blog:
   - widget: latest
     type: posts
     count: 15
-    title: Latest Posts
+    title: Edelliset artikkelit
 
 page:
   - widget: author
