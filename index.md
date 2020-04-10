@@ -37,15 +37,6 @@ header:
 
 %}
 
-{% include blog.html
-  layout="3"
-  count="1"
-  view_all="/blog/"
-    section_title="Uutiset"
-  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
-  section_header_align="center"
-%}
-
 
 
 {% include blog.html
