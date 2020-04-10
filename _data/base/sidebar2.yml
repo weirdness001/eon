@@ -1,5 +1,13 @@
 # Sidebar widgets
 blog:
+  - widget: tagged
+    type: posts
+    primary:
+      title: Product news
+      tag: news
+    secondary:
+      title: Editor picks
+      tag: pick
 
   - widget: latest
     type: posts
@@ -8,7 +16,7 @@ blog:
 
 page:
   - widget: author
-    author: Ville
+    author: john
 
   - widget: latest
     type: posts
