@@ -1,12 +1,11 @@
 # Navbar menu navigation links
-- title: Home
+- title: Koti
   url: /
 
-- title: Faq
-  url: /faq/
 
-- title: Contact
+
+- title: Yhteystiedot
   url: /contact/
 
-- title: Blog
+- title: Uutiset
   url: /blog/
