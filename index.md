@@ -43,7 +43,7 @@ header:
   grid="1-3"
   gutter="large"
   count="3"
-  view_all="/blog/"
+  näytä kaikki="/blog/"
     section_title="Uutiset"
   section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
   section_header_align="center"
