@@ -2,10 +2,10 @@
 left:
 
 center:
-  - title: Home
+#  - title: Home
     url: /
 
-  - title: Headers
+#  - title: Headers
     dropdown:
       - title: Search
         url: /header-search/
@@ -16,7 +16,7 @@ center:
       - title: CTA
         url: /header-cta/
 
-  - title: Features
+#  - title: Features
     dropdown:
       - title: Components
       - title: Cards
@@ -41,16 +41,19 @@ center:
       - title: Dark
         url: /map-dark/
 
-  - title: Portfolio
+#  - title: Portfolio
     url: /portfolio/
 
-  - title: Blog
+  - title: Uutiset
     url: /blog/
 
-  - title: 404
+  - title: Yhteystiedot
+    url: /contact/
+
+#  - title: 404
     url: /404/
-    
-  - title: Docs
+
+#  - title: Docs
     url: /theme-docs/
 
 right:
