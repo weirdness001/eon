@@ -8,9 +8,9 @@ navbar:
   transparent_color: light
 header:
   layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: Working-Space2.jpg
-  background_video: Working-Space2.mp4
-#  background_overlay: "linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 80%)"
+  background_image: Working-Space.jpg
+  background_video: Working-Space.mp4
+  background_overlay: "linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 80%)"
   color: light
   heading_size: medium
   height: full
@@ -22,59 +22,42 @@ header:
 
 [comment]: # (This actually is the most platform independent comment)
 
-
-
 {% if site.template == 'base' %}
 
-{% include cta.html
-  section_size="large"
-  layout="2"
-  block="cta-2"
-  section_content_align="left"
-  section_image="section-2.jpeg"
-  section_overlay="rgba(13, 57, 181, 0.8)"
-  section_content_color="light"
+  {% include cards.html 
+    block="feature" 
+    section_background="default" 
+    section_size="large"
+    section_title="The first multipurpose Jekyll theme" 
+    section_header_align="center"
+    section_content_align="center"
+    media="top"
+    grid="1-4"
+    gutter="large"
+    icon_color="#1B33BF"
+  %}
 
-%}
+  {% include cards.html 
+    block="home-why" 
+    section_title="Why use Eon theme?"
+    section_header_align="center"
+    section_size="large"
+    section_background="muted"
+    grid="1-3"
+    gutter="large"
+  %}
 
-
-
-{% include blog.html
-  grid="1-3"
-  gutter="large"
-  count="3"
-  näytä kaikki="/blog/"
-    section_title="Uutiset"
-  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
-  section_header_align="center"
-%}
-
-
-
-
-{% include cards.html
-
-  block="home-why"
-  block_title="false"
-  section_size="large"
-    grid="1-2"
-  gutter="large"
-  card_style="default"
-  section_background="default"
-  section_padding_remove="top"
-  section_title="Muutamia töitämme"
-
-  section_header_align="center"
-%}
-
-{% include map.html
-  latitude="60.455298"
-  longitude="22.259664"
-  zoom="12"
-  style="silver"
-%}
-
-
+  {% include cta.html 
+    section_size="large"
+    section_image="header-9.jpeg"
+    section_overlay="rgba(0, 0, 0, 0.5)"
+    section_container="small"
+    section_content_align="center"
+    section_content_color="light"
+    layout="1"
+    block="cta-4"
+  %}
+  
 {% else %}
 
 
