@@ -100,8 +100,8 @@ donations:
 
 # Social share buttons
 social_share:
-  twitter:              true
-  facebook:             true
+  twitter:              false
+  facebook:             false
   linkedin:             false
   pinterest:            false
   reddit:               false
