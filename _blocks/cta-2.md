@@ -4,6 +4,6 @@ subtitle: Autamme asiakkaitamme saamaan viestinsä eteenpäin Liikkuvan kuvan ja
 button:
   style: primary
   text: ota yhteyttä
-  url: /contact/
+  url: /eon/contact/
   blank: true
 ---
