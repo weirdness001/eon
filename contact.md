@@ -20,7 +20,7 @@ header:
 ---
 
 {% include cards.html
-  block="card-media-12"
+  block="card-media-13"
   media="left"
   section_size="large"
   card_style="default"
