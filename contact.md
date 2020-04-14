@@ -31,10 +31,3 @@ header:
 section_size="xsmall"
 
 %}
-
-{% include map.html
-  latitude="60.455298"
-  longitude="22.259664"
-  zoom="12"
-  style="silver"
-%}
