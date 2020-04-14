@@ -19,13 +19,14 @@ header:
   parallax: true
 ---
 
-{% include
-  team.html
-  authors="john, "
+{% include cards.html
+  block="card-media-12" 
+  media="left"
   section_size="large"
-  section_container="expand"
-  section_header_align="left"
-  section_background="muted"
+  section_background="default"
+  section_title="Cards with images"
+  section_header_align="center"
+  card_style="default"
 %}
 
 ## Ota rohkeasti yhteyttä niin keskustellaan lisää.
