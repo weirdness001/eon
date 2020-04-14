@@ -39,7 +39,7 @@ header:
   grid="1-3"
   gutter="large"
   count="3"
-  näytä kaikki="/blog/"
+  view_all="/blog/"
 %}
 
 
