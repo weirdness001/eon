@@ -41,8 +41,7 @@ center:
       - title: Dark
         url: /map-dark/
 
-#  - title: Portfolio
-    url: /portfolio/
+
 
   - title: Uutiset
     url: /blog/
@@ -52,10 +51,3 @@ center:
 
   - title: Docs
     url: /theme-docs/
-
-
-
-# right:
-  - title: Purchase
-    url: https://themeforest.net/user/pressapps/portfolio
-    button: default
