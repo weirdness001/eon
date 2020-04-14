@@ -83,8 +83,8 @@ header:
 
 <ul class="uk-pagination uk-flex-center uk-margin-large-top">
   {% if paginator.previous_page %}
-  <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[site.template].translation[site.lang].previous | default: "Previous" }}</a></h5></li>
+  <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[site.template].translation[site.lang].previous | default: "Edellinen" }}</a></h5></li>
   {% endif %} {% if paginator.next_page %}
-  <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[site.template].translation[site.lang].next | default: "Next" }} &rarr;</a></h5></li>
+  <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[site.template].translation[site.lang].next | default: "Seuraava" }} &rarr;</a></h5></li>
   {% endif %}
 </ul>
