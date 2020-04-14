@@ -49,7 +49,7 @@ header:
 
   {% include cards.html
     block="home-why"
-    section_title="Töitämme khyl"
+    section_title="Töitämme"
     section_header_align="center"
     section_size="large"
     section_background="muted"
