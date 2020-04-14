@@ -35,15 +35,7 @@ header:
 
 %}
 
-{% include blog.html
-  grid="1-3"
-  gutter="large"
-  count="3"
-  näytä kaikki="/blog/"
-    section_title="Uutiset"
-  section_subtitle="Whitewaterin uusimpia ajatuksia"
-  section_header_align="center"
-%}
+
 
 
 
