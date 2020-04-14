@@ -22,3 +22,28 @@ en:
   article_categories:         "kategoriat"
   view_all:                   "Näytä kaikki"
   donations_paypal:           "Lahjoitukset"
+
+  # English (default)
+  fin:
+    previous:                   "Edellinen"
+    next:                       "Seuraava"
+    related_articles:           "Samankaltaisia artikkeleja"
+    related_posts:              "Samankaltaisia"
+    read_more:                  "Lue lisää"
+
+    share_twitter:              "Jaa Twitterissä"
+    share_facebook:             "Jaa Facebookissa"
+    search_placeholder:         "Etsi vastauksia"
+    search_no_results:          "Tuloksia ei löytymyt"
+    mobile_nav_site:            "Menu"
+    contact_name:               "Nimi"
+    contact_email:              "Email"
+    contact_subject:            "Aihe"
+    contact_message:            "Viesti"
+    contact_send:               "Lähetä"
+    newsletter_email:           "Sähköpostiosoite"
+    newsletter_submit:          "Tilaa"
+    newsletter_signup:          "Uutislehtisen tilaus"
+    article_categories:         "kategoriat"
+    view_all:                   "Näytä kaikki"
+    donations_paypal:           "Lahjoitukset"
