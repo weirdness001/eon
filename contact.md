@@ -10,7 +10,7 @@ navbar:
   transparent: true
   transparent_color: light
 header:
-  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_image: header-10.jpeg
   background_overlay: "rgba(0, 0, 0, 0.6)"
   color: light
@@ -20,12 +20,9 @@ header:
 ---
 
 {% include cards.html
-  block="card-media-12" 
+  block="card-media-12"
   media="left"
   section_size="large"
-  section_background="default"
-  section_title="Cards with images"
-  section_header_align="center"
   card_style="default"
 %}
 
