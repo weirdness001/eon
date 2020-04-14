@@ -21,7 +21,7 @@ header:
 
 {% include
   team.html
-  authors=" john"
+  authors="john, sara, alex, tom, daniel" 
   section_title="We are here to help"
   section_subtitle="Olemme vain sähköpostin päässä vastataksemme kysymyksiisi"
   section_size="large"
