@@ -68,8 +68,8 @@ header:
 %}
 
 {% include map.html
-  latitude="19.419897"
-  longitude="-99.164967"
+  latitude="60.455298"
+  longitude="22.259664"
   zoom="12"
   style="silver"
 %}
