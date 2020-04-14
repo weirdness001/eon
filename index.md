@@ -24,21 +24,31 @@ header:
 
 {% if site.template == 'base' %}
 
-  {% include cards.html 
-    block="feature" 
-    section_background="default" 
-    section_size="large"
-    section_title="The first multipurpose Jekyll theme" 
-    section_header_align="center"
-    section_content_align="center"
-    media="top"
-    grid="1-4"
-    gutter="large"
-    icon_color="#1B33BF"
-  %}
+{% if site.template == 'base' %}
 
-  {% include cards.html 
-    block="home-why" 
+{% include cta.html
+  section_size="large"
+  layout="2"
+  block="cta-2"
+  section_content_align="left"
+  section_image="section-2.jpeg"
+  section_overlay="rgba(13, 57, 181, 0.8)"
+  section_content_color="light"
+
+%}
+
+{% include blog.html
+  grid="1-3"
+  gutter="large"
+  count="3"
+  näytä kaikki="/blog/"
+    section_title="Uutiset"
+  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
+  section_header_align="center"
+%}
+
+  {% include cards.html
+    block="home-why"
     section_title="Why use Eon theme?"
     section_header_align="center"
     section_size="large"
@@ -47,17 +57,8 @@ header:
     gutter="large"
   %}
 
-  {% include cta.html 
-    section_size="large"
-    section_image="header-9.jpeg"
-    section_overlay="rgba(0, 0, 0, 0.5)"
-    section_container="small"
-    section_content_align="center"
-    section_content_color="light"
-    layout="1"
-    block="cta-4"
-  %}
-  
+
+
 {% else %}
 
 
