@@ -102,14 +102,14 @@ donations:
 social_share:
   twitter:              true
   facebook:             true
-  linkedin:             true
-  pinterest:            true
-  reddit:               true
+  linkedin:             false
+  pinterest:            false
+  reddit:               false
 
 # Social buttons
 social_networks:
   email:                ville@whitewater.fi
-  website:
+  website: whitewater.fi
   facebook:             https://www.facebook.com/whitewateroy
   flickr:
   dribbble:
@@ -120,7 +120,7 @@ social_networks:
   pinterest:
   twitter:
   vimeo:
-  youtube:
+  youtube:             https://www.youtube.com/channel/UCQenIezo52aRbO68jr3TH6A
 
 # Build settings
 markdown:               kramdown
