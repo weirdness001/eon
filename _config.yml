@@ -43,34 +43,15 @@ author:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-  john:
+  ville:
     name:               Ville Heikkilä
     title:              Visual designer/Graphic production, ville@whitewater.fi, 044 5347381
     email:              ville@whitewater.fi
     avatar:             avatar-ville.png
-  evan:
-    name:               Evan Wells
-    title:              Support
-    avatar:             avatar-evan.png
-  sara:
-    name:               Sara Galen
-    title:              Lead Developer
-    avatar:             avatar-sara.png
-  alex:
-    title:              Design Engineer
-    name:               Alex Koch
-    avatar:             avatar-alex.png
-  daniel:
-    title:              Developer
-    name:               Daniel Shultz
-    avatar:             avatar-daniel.png
-  tom:
-    title:              Developer
-    name:               Tom Farrell
-    avatar:             avatar-tom.png
+
 
 navbar:
-  layout:               default # default, center
+  layout:               center # default, center
   color:                dark # text color, dark or light
   animation:            true
   sticky:               true

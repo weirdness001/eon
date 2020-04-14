@@ -1,5 +1,5 @@
 # Center style footer navigation
-center:
+# center:
   - title: Services
     url: /services/
 
