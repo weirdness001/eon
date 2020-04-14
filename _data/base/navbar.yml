@@ -5,7 +5,7 @@ center:
   - title: Etusivu
     url: /
 
-  - title: Headers
+#  - title: Headers
     dropdown:
       - title: Search
         url: /header-search/
@@ -16,7 +16,7 @@ center:
       - title: CTA
         url: /header-cta/
 
-  - title: Features
+#  - title: Features
     dropdown:
       - title: Components
       - title: Cards
@@ -41,7 +41,7 @@ center:
       - title: Dark
         url: /map-dark/
 
-  - title: Portfolio
+#  - title: Portfolio
     url: /portfolio/
 
   - title: Uutiset
@@ -55,7 +55,7 @@ center:
 
 
 
-right:
+# right:
   - title: Purchase
     url: https://themeforest.net/user/pressapps/portfolio
     button: default

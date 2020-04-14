@@ -2,10 +2,11 @@
 - title: Koti
   url: /
 
-- title: Portfolio
+
+ # - title: Portfolio
   url: /Portfolio/
 
-- title: Blogi
+- title: Uutiset
   url: /blog/
 
 - title: Ota Yhteyttä
