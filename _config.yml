@@ -51,7 +51,7 @@ authors:
 
 
 navbar:
-  layout:               center # default, center
+  layout:               default # default, center
   color:                dark # text color, dark or light
   animation:            true
   sticky:               true
