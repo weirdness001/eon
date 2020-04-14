@@ -21,12 +21,10 @@ header:
 
 {% include
   team.html
-  authors="john, sara, alex, tom, daniel" 
-  section_title="We are here to help"
-  section_subtitle="Olemme vain sähköpostin päässä vastataksemme kysymyksiisi"
+  authors="john, "
   section_size="large"
   section_container="expand"
-  section_header_align="center"
+  section_header_align="left"
   section_background="muted"
 %}
 
