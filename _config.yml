@@ -179,9 +179,9 @@ defaults:
       sidebar:
         right:              blog
       comments:             # true
-      share:                true
-      related:              true
-      mailchimp:            true
+      share:                false
+      related:              false
+      mailchimp:            false
       navbar:
         transparent:        true
         transparent_color:  light
