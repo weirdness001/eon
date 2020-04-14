@@ -1,6 +1,6 @@
 ---
 title: Ota Yhteyttä
-subtitle: Soita tai laita kirjoita sähköpostia. 044 534 7381  email ville@whitewater.fi
+subtitle: Soita tai kirjoita sähköpostia. 044 534 7381  email ville@whitewater.fi
 width: xsmall
 section: large
 navbar:
@@ -18,6 +18,17 @@ header:
   heading_size: medium
   parallax: true
 ---
+
+{% include
+  team.html
+  authors=" john"
+  section_title="We are here to help"
+  section_subtitle="Olemme vain sähköpostin päässä vastataksemme kysymyksiisi"
+  section_size="large"
+  section_container="expand"
+  section_header_align="center"
+  section_background="muted"
+%}
 
 ## Ota rohkeasti yhteyttä niin keskustellaan lisää.
 {% include formspree.html email="ville@whitewater.fi" redirect="/thanks/" name="false" subject="false" %}
