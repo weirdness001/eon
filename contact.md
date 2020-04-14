@@ -27,7 +27,10 @@ header:
 %}
 
 ## Ota rohkeasti yhteyttä niin keskustellaan lisää.
-{% include formspree.html email="ville@whitewater.fi" redirect="/thanks/" name="false" subject="false" %}
+{% include formspree.html email="ville@whitewater.fi" redirect="/thanks/" name="false" subject="false"
+section_size="xsmall"
+
+%}
 
 {% include map.html
   latitude="60.455298"
