@@ -24,6 +24,16 @@ header:
 
 {% if site.template == 'base' %}
 
+{% include blog.html
+  grid="1-3"
+  gutter="large"
+  count="3"
+  näytä kaikki="/blog/"
+    section_title="Uutiset"
+  section_subtitle="Lue WhiteWaterin uusimmat kuulumiset"
+  section_header_align="center"
+%}
+
 {% include cta.html
   section_size="large"
   layout="2"
@@ -35,12 +45,6 @@ header:
 
 %}
 
-{% include blog.html
-  grid="1-3"
-  gutter="large"
-  count="3"
-  view_all="/blog/"
-%}
 
 
   {% include cards.html
