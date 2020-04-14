@@ -24,18 +24,6 @@ header:
 
 {% if site.template == 'base' %}
 
-  {% include cards.html
-    block="feature"
-    section_background="default"
-    section_size="large"
-    section_title="The first multipurpose Jekyll theme"
-    section_header_align="center"
-    section_content_align="center"
-    media="top"
-    grid="1-4"
-    gutter="large"
-    icon_color="#1B33BF"
-  %}
 
   {% include cards.html
     block="home-why"
