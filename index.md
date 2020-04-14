@@ -36,9 +36,10 @@ header:
 %}
 
 {% include blog.html
-  grid="1-3"
   section_title="Ajatuksia blokissa"
   section_header_align="center"
+  grid="1-3"
+
   gutter="large"
   count="3"
   Näytä kaikki="/blog/"
