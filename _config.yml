@@ -45,7 +45,8 @@ author:
 authors:
   john:
     name:               Ville Heikkilä
-    title:               Visual designer/Graphic production
+    title:              Visual designer/Graphic production
+    email:              ville@whitewater.fi 
     avatar:             avatar-ville.png
   evan:
     name:               Evan Wells
