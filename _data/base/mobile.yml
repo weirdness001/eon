@@ -1,11 +1,8 @@
 # Navbar menu navigation links
-- title: Koti
-  url: /
 
-
-
-- title: Yhteystiedot
-  url: /contact/
 
 - title: Uutiset
   url: /blog/
+
+- title: Yhteystiedot
+  url: /contact/
