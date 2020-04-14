@@ -85,7 +85,7 @@ mailchimp:
   hidden_name:          000000
 
 google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:   AIzaSyB3CinAQOI9CDamoruW_XBuVuU69j4JWU4
+google_maps_api_key: AIzaSyB3CinAQOI9CDamoruW_XBuVuU69j4JWU4
 
 disqus:
   shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
