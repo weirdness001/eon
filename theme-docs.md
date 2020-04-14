@@ -83,7 +83,7 @@ If logo image files are not set, the site title text is displayed instead.
 ## Navigation
 
 ### Main navigation bar
-There are two navigation bar layouts `default` or `center`, the default layout offers left, center or right aligned navigation with logo on the left, the center layout display logo in the center and navigation link on the left and right. 
+There are two navigation bar layouts `default` or `center`, the default layout offers left, center or right aligned navigation with logo on the left, the center layout display logo in the center and navigation link on the left and right.
 
 Set navbar layout options in `_config.yml`, these setting can be overridden on per page basis in page front matter:
 
@@ -203,7 +203,7 @@ header:
   content:                            # Source block file for first column if layout set to 1-1, 1-2, 1-3 or 2-3
     block:              header-one    # Reference block file e.g. for _blocks/header-one.md enter header-one
   content-2:                          # Source block file for second column if layout is set to 1-1, 1-2, 1-3 or 2-3
-    block:              header-two    # Reference block file e.g. for _blocks/header-two.md enter header-two 
+    block:              header-two    # Reference block file e.g. for _blocks/header-two.md enter header-two
     title:              false         # Do not display block title, Options: false
 ```
 
@@ -269,7 +269,7 @@ width:                full
 Add sidebar to a page by adding the following to page front matter block:
 Set page width by adding the following to page front matter block:
 ```yml
-sidebar: 
+sidebar:
   right:              sidebar-left
   left:               sidebar-right
 ```
@@ -318,7 +318,7 @@ The section is a wrapper around piece of included content that allows setting cu
 Image include without a section wrapper:
 {% raw %}
 ```yml
-{% include image.html 
+{% include image.html
   src="portfolio-4-header.jpg"
   alt="Some alt title"
 %}
@@ -328,16 +328,16 @@ Image include without a section wrapper:
 Image include with a section wrapper, includes all options for demonstration:
 {% raw %}
 ```yml
-{% include image.html 
+{% include image.html
   src="portfolio-4-header.jpg"
   alt="Some alt title"
   section_size="medium"
   section_padding_remove="top"
-  section_title="Section title" 
-  section_subtitle="Section subtitle" 
+  section_title="Section title"
+  section_subtitle="Section subtitle"
   section_header_align="center"
   section_header_color="#fff"
-  section_background="primary" 
+  section_background="primary"
   section_image="image-3.jpg"
   section_image_align="center-center"
   section_video="video-3.mp4"
@@ -375,7 +375,7 @@ Image include with a section wrapper, includes all options for demonstration:
 Theme uses blocks as source of content for many includes. Blocks is a Jekyll collection with its posts in `_blocks` directory. Some includes such as call to action will pull content only from one block post e.g.:
 {% raw %}
 ```yml
-{% include cta.html 
+{% include cta.html
   block="cta-2"
 %}
 ```
@@ -385,8 +385,8 @@ The above include references `cta-2` as block source, this displays contents of 
 Other includes such as gallery, cards or sliders display contents of multiple block posts ordered by file name e.g.:
 {% raw %}
 ```yml
-{% include cards.html 
-  block="feature" 
+{% include cards.html
+  block="feature"
 %}
 ```
 {% endraw %}
@@ -410,9 +410,9 @@ Use the following include to add cards to a page:
 
 {% raw %}
 ```yml
-{% include cards.html 
-  block="home-card" 
-  media="top" 
+{% include cards.html
+  block="home-card"
+  media="top"
   card_style="default"
   grid="1-2"
 %}
@@ -456,7 +456,7 @@ Fixed or sticky navbar with left, center, and right aligned navigation.
 Use the following include to add an image to a page:
 {% raw %}
 ```yml
-{% include image.html 
+{% include image.html
 	src="alexander-read.jpg"
   alt="Alt for image"
   align="right"
@@ -483,8 +483,8 @@ Use the following include to add an image to a page:
 Use the following include to add a slider to a page:
 {% raw %}
 ```yml
-{% include slider.html 
-  block="slider-home" 
+{% include slider.html
+  block="slider-home"
   color="light"
   display_title="false"
   autoplay="true"
@@ -529,7 +529,7 @@ image: card-2.jpeg
 Gallery include displays images in a specific directory as a gallery. Use the following include to add a gallery to a page:
 {% raw %}
 ```yml
-{% include gallery.html 
+{% include gallery.html
   gallery="gallery-1"
   grid="1-4"
   gutter="large"
@@ -560,10 +560,10 @@ instagram_accesstoken:  x8dnfii4489rhfhrufh4dd
 Use the following include to add an Instagram feed to a page:
 {% raw %}
 ```yml
-{% include instagram.html 
+{% include instagram.html
   grid="1-4"
   gutter="large"
-  count="8" 
+  count="8"
 %}
 ```
 {% endraw %}
@@ -595,9 +595,9 @@ authors:
 Use the following include to add team members to a page:
 {% raw %}
 ```yml
-{% include 
-  team.html 
-  authors="evan, john, sara, alex, tom, daniel" 
+{% include
+  team.html
+  authors="evan, john, sara, alex, tom, daniel"
 %}
 ```
 {% endraw %}
@@ -615,9 +615,9 @@ Use the following include to add team members to a page:
 Display clickable cards with video lightbox, use the following include to add video cards to a page:
 {% raw %}
 ```yml
-{% include videos.html 
-  block="video-home" 
-  grid="1-3" 
+{% include videos.html
+  block="video-home"
+  grid="1-3"
   gutter="large"
   card_style="default"
 %}
@@ -650,7 +650,7 @@ Praesent tincidunt elit, eget sagittis turpis ornare non mauris non leo tortor.
 Use the following include to add a call to action to a page:
 {% raw %}
 ```yml
-{% include cta.html 
+{% include cta.html
   block="cta-2"
   layout="2"
 %}
@@ -704,8 +704,8 @@ Dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequ
 Display contents of a block post, either as one column layout `1-1` or two column layout with one column displaying title and subtitle, and the second column displaying content, use one of layout width settings `1-2, 1-3, 1-4, 1-5, 1-6` for two column layout, this will set the content column width.
 {% raw %}
 ```yml
-{% include block.html 
-  block="content" 
+{% include block.html
+  block="content"
   layout="1-1"
   block_title="false"
   align="right"
@@ -730,7 +730,7 @@ Display latest blog posts (no pagination, suitable as a short section, for full 
 
 {% raw %}
 ```yml
-{% include blog.html 
+{% include blog.html
   grid="1-3"
   gutter="large"
   count="3"
@@ -803,11 +803,11 @@ google_maps_api_key: nd7h4end8rnflkfif8ifrjmfjf
 Use the following include to insert map to a page:
 {% raw %}
 ```yml
-{% include map.html 
-  latitude="19.419897" 
-  longitude="-99.164967" 
-  zoom="12" 
-  style="silver" 
+{% include map.html
+  latitude="19.419897"
+  longitude="-99.164967"
+  zoom="12"
+  style="silver"
 %}
 ```
 {% endraw %}
@@ -844,9 +844,9 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Use the following include to add FAQs to a page:
 {% raw %}
 ```yml
-{% include faqs.html 
-  multiple="true" 
-  category="presale" 
+{% include faqs.html
+  multiple="true"
+  category="presale"
 %}
 ```
 {% endraw %}
@@ -866,11 +866,11 @@ Submit the form and confirm your email address at [FormSpree](https://formspree.
 
 {% raw %}
 ```yaml
-{% include formspree.html 
-  email="my_name@gmail.com" 
-  redirect="/thanks/" 
-  name="true" 
-  subject="true" 
+{% include formspree.html
+  email="my_name@gmail.com"
+  redirect="/thanks/"
+  name="true"
+  subject="true"
   layout="horizontal"
 %}
 ```
@@ -916,7 +916,7 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Use the following include to add a portfolio to a page:
 {% raw %}
 ```yml
-{% include portfolio.html 
+{% include portfolio.html
   grid="1-3"
   gutter="large"
   filter="true"

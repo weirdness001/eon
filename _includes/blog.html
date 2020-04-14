@@ -1,4 +1,4 @@
-{% include partials/section-open.html 
+{% include partials/section-open.html
   section_size=include.section_size
   section_padding_remove=include.section_padding_remove
   section_header_align=include.section_header_align
@@ -53,16 +53,16 @@
             <a class="uk-link-reset uk-text-small text-400" href="{{ post.url | relative_url }}">{{ site.data[site.template].translation[site.lang].read_more | default: "Read more" }}</a>
             {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
             <span class="uk-text-small uk-text-muted uk-align-right">{{ post.date | date: date_format }}</span>
-          </div>                    
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
   {%- if include.view_all -%}
-    <div class="uk-margin-medium-top uk-text-center"><a href="{{ include.view_all | relative_url }}" class="uk-button uk-button-default uk-button-small">{{ site.data[site.template].translation[site.lang].view_all | default: 'View All' }}</a></div>
+    <div class="uk-margin-medium-top uk-text-center"><a href="{{ include.view_all | relative_url }}" class="uk-button uk-button-default uk-button-small">{{ site.data[site.template].translation[site.lang].view_all | default: 'Näytä kaikki' }}</a></div>
   {% endif %}
-{% include partials/section-close.html 
-  section_size=include.section_size 
+{% include partials/section-close.html
+  section_size=include.section_size
 	section_background=include.section_background
 	section_image=include.section_image
 	section_video=include.section_video
