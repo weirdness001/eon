@@ -1,4 +1,4 @@
 ---
-title: Liikkuvaa kuvaa animaation keinoin. RAI RAI
+title: Liikkuvaa kuvaa animaation keinoin.
 subtitle: Mitä laitetaan?
 ---
