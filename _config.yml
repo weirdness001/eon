@@ -5,13 +5,13 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Eon
-description:            Multipurpose Jekyll theme.
+title:                  WhiteWater Oy animaatiostudio
+description:            Visuaalista sisällöntuotantoa animaation keinoin.
 url:                    "" # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
-lang:                   en
-logo:                   logo-dark.svg
-logo_light:             logo-light.svg
+lang:                   fin
+logo:                   whitewater_logo.png
+logo_light:             whitewater_logo_light.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
@@ -22,19 +22,19 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 Pete Seth
-  avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  name:                 Ville Heikkilä
+  avatar:               avatar-ville.png
+  title:                Visual designer/Graphic production
+  bio:                  Olen visuaalinen suunnittelija ja liikkuvan kuvan ammattilainen. Erityisosaamistani ovat 3D-grafiikka ja animaatio sekä moninaisten visuaalisten toteutusten hallinta.
   url:
-  email:                info@blacompany.com
+  email:                ville@whitewater.fi
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/WhitewaterOy/
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
+  instagram:            https://www.instagram.com/WhitewaterOy
   linkedin:
   pinterest:
   twitter:
@@ -44,27 +44,28 @@ author:
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
   john:
-    name:               John Brown
-    title:              Support     
-    avatar:             avatar-john.png
+    name:               Ville Heikkilä
+    title:              Visual designer/Graphic production, ville@whitewater.fi, 044 5347381
+    email:              ville@whitewater.fi
+    avatar:             avatar-ville.png
   evan:
     name:               Evan Wells
-    title:              Support    
+    title:              Support
     avatar:             avatar-evan.png
   sara:
     name:               Sara Galen
-    title:              Lead Developer     
+    title:              Lead Developer
     avatar:             avatar-sara.png
   alex:
-    title:              Design Engineer     
+    title:              Design Engineer
     name:               Alex Koch
     avatar:             avatar-alex.png
   daniel:
-    title:              Developer      
+    title:              Developer
     name:               Daniel Shultz
     avatar:             avatar-daniel.png
   tom:
-    title:              Developer     
+    title:              Developer
     name:               Tom Farrell
     avatar:             avatar-tom.png
 
@@ -76,21 +77,21 @@ navbar:
   search:               false
 
 footer:                 # Default footer image settings
-  style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+  style:                default # default, muted, primary, secondary
+  layout:               center # center or columns
+  copyright:            WhiteWater Oy 2020
 
 mailchimp:
   form_action:          000000
   hidden_name:          000000
-  
+
 google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+google_maps_api_key: AIzaSyB3CinAQOI9CDamoruW_XBuVuU69j4JWU4
 
 disqus:
   shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken:  
+instagram_accesstoken:
 
 donations:
   paypal:
@@ -101,25 +102,25 @@ donations:
 social_share:
   twitter:              true
   facebook:             true
-  linkedin:             true
-  pinterest:            true
-  reddit:               true
+  linkedin:             false
+  pinterest:            false
+  reddit:               false
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
-  website:
-  facebook:             https://www.facebook.com/
+  email:                ville@whitewater.fi
+  website: whitewater.fi
+  facebook:             https://www.facebook.com/whitewateroy
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
+  instagram:            https://www.instagram.com/whitewateroy
   linkedin:
   pinterest:
   twitter:
   vimeo:
-  youtube:
+  youtube:             https://www.youtube.com/channel/UCQenIezo52aRbO68jr3TH6A
 
 # Build settings
 markdown:               kramdown
@@ -135,7 +136,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-exclude: 
+exclude:
   - vendor
   - .bundle
   - .sass-cache
@@ -175,7 +176,7 @@ defaults:
     values:
       layout:               post
       section:              large
-      sidebar: 
+      sidebar:
         right:              blog
       comments:             # true
       share:                true
