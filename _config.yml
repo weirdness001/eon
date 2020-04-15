@@ -52,7 +52,7 @@ authors:
 
 navbar:
   layout:               default # default, center
-  color:                light # text color, dark or light
+  color:                dark # text color, dark or light
   animation:            true
   sticky:               true
   search:               false
