@@ -44,7 +44,6 @@ header:
     block="home-why"
     section_title="Töitämme"
     section_header_align="center"
-    header_background_color:     "#1B33BF"
     section_size="large"
     section_background="muted"
     grid="1-2"
@@ -54,7 +53,6 @@ header:
 
   {% include cards.html
     block="card-media-13"
-    background_color:     "#1B33BF"
     media="center"
     section_size="large"
     card_style="default"
