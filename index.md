@@ -50,13 +50,6 @@ header:
     gutter="large"
   %}
 
-  {% include blog.html
-    grid="1-3"
-    gutter="large"
-    count="3"
-    näytä kaikki="/blog/"
-  %}
-
 
   {% include cards.html
     section_title="Yhteystiedot"
