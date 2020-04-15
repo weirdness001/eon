@@ -38,6 +38,8 @@ header:
 %}
 
 {% include blog.html
+  section_title="uutiset"
+  section_header_align="center"
   grid="1-3"
   gutter="large"
   count="3"
@@ -56,7 +58,14 @@ header:
     gutter="large"
   %}
 
-
+  {% include cards.html
+    section_title="Yhteystiedot"
+    section_header_align="center"
+    block="card-media-13"
+    media="left"
+    section_size="large"
+    card_style="default"
+  %}
 
 {% else %}
 
