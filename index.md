@@ -25,8 +25,6 @@ header:
 {% if site.template == 'base' %}
 
 
-
-
 {% include blog.html
   grid="1-3"
   gutter="large"
