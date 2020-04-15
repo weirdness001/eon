@@ -25,12 +25,6 @@ header:
 {% if site.template == 'base' %}
 
 
-{% include cards.html
-
-  section_title="Uutiset"
-  section_header_align="center"
-
-%}
 
 
 {% include blog.html
