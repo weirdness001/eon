@@ -38,8 +38,6 @@ header:
 %}
 
 {% include blog.html
-  section_title="uutiset"
-  section_header_align="center"
   grid="1-3"
   gutter="large"
   count="3"
