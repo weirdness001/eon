@@ -1,7 +1,7 @@
 # Navbar menu navigation links
 left:
 
-center:
+right:
 
   - title: Uutiset
     url: /blog/
