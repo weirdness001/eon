@@ -50,14 +50,7 @@ header:
     gutter="large"
   %}
 
-  {% include cards.html
-    section_title="Yhteystiedot"
-    section_header_align="center"
-    block="card-media-13"
-    media="left"
-    section_size="large"
-    card_style="default"
-  %}
+
 
 {% else %}
 
