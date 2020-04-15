@@ -13,7 +13,7 @@ header:
 #  background_video: Working-Space.mp4
 #  background_overlay: "linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 80%)"
   color: light
-  heading_size: small
+  heading_size: large
   height: full
   parallax: true
   container: small

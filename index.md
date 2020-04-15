@@ -25,12 +25,6 @@ header:
 {% if site.template == 'base' %}
 
 
-{% include blog.html
-  grid="1-3"
-  gutter="large"
-  count="3"
-  Näytä kaikki="/blog/"
-%}
 
 {% include cta.html
   section_size="large"
