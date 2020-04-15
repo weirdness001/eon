@@ -1,6 +1,5 @@
 ---
 title: Yhteystiedot
-image: pikkukuva.jpg
 ---
 
 - Osoite: Whitewater Oy
