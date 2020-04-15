@@ -24,6 +24,15 @@ header:
 
 {% if site.template == 'base' %}
 
+
+{% include cards.html
+
+  section_title="Uutiset"
+  section_header_align="center"
+
+%}
+
+
 {% include blog.html
   grid="1-3"
   gutter="large"
@@ -50,7 +59,7 @@ header:
     section_header_align="center"
     section_size="large"
     section_background="muted"
-    grid="1-3"
+    grid="1-2"
     gutter="large"
   %}
 
