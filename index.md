@@ -54,6 +54,7 @@ header:
 
   {% include cards.html
     block="card-media-13"
+    background_color:     "#1B33BF"
     media="left"
     section_size="large"
     card_style="default"
