@@ -1,7 +1,7 @@
 ---
-title: Hosting on Github
+title: jembo
 subtitle: Praesent tincidunt elit, eget sagittis turpis ornare non mauris non leo tortor
-video: https://youtu.be/fqFjuX4VZmU
+video: pupu_video_1
 ---
 
 Praesent tincidunt elit, eget sagittis turpis ornare non mauris non leo tortor.
